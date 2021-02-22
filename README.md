@@ -10,7 +10,9 @@
 - [ ] Socket.io
 - [ ] MongoDB
 
+* JWT Login
+
 #### 컨셉
 
 - 특정 유저 스피킹 녹음 기능
-- TTS
+- STT
