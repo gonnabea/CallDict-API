@@ -8,7 +8,7 @@
 - [ ] Node.js (Nest.js / GraphQL / TypeScript)
 - [ ] WebRTC
 - [ ] Socket.io
-- [ ] MongoDB
+- [ ] MongoDB (TypeORM => TypeGoose)
 
 * JWT Login
 

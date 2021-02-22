@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { GraphQLModule } from '@nestjs/graphql';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { join } from 'path';
+import { User } from './user/entities/user.entity';
 import { UserModule } from './user/user.module';
 
 @Module({
@@ -16,6 +17,7 @@ import { UserModule } from './user/user.module';
       database: 'call-dict',
       useUnifiedTopology: true,
       useNewUrlParser: true,
+      entities: [User],
     }),
   ],
 })
